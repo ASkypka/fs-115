@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retina picture</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/retina-picture.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <picture>
+      <source media="(min-width: 1200px)"
+        srcset="../images/retina-picture/img-desktop.jpg 1x, ../images/retina-picture/img-desktop@2x.jpg 2x" />
+      <source media="(min-width: 768px)"
+        srcset="../images/retina-picture/img-tablet.jpg 1x, ../images/retina-picture/img-tablet@2x.jpg 2x" />
+      <source media="(max-width: 767px)"
+        srcset="../images/retina-picture/img-mobile.jpg 1x, ../images/retina-picture/img-mobile@2x.jpg 2x" />
+      <img src="../images/retina-picture/img-mobile.jpg" alt="retina image" />
+    </picture>
+
+  </div>
+</body>
+
+</html>

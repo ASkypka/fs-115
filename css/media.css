@@ -1,0 +1,71 @@
+body {
+  background-color: teal;
+}
+
+/* ========== MIN-WIDTH & MAX-WIDTH ========== */
+
+
+/* @media (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: yellow;
+  }
+} */
+
+
+/* @media (max-width: 1157px) {
+  .list div {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+} */
+
+
+/* @media (width: 600px) {
+  body {
+    background-color: red;
+  }
+} */
+
+/* ========== AND ========== */
+
+/* @media (min-width: 600px) and (max-width: 799px) {
+  .list div {
+    display: none;
+  }
+} */
+
+/* ========== OR ========== */
+
+/* , */
+
+/* @media (min-width: 600px),
+(max-width: 799px) {
+  body {
+    background-color: red;
+  }
+} */
+
+/* ========== TYPES ========== */
+/* 
+  all
+  screen 
+  print
+*/
+
+@media (min-width: 320px) and (max-width: 768px) {
+  button {
+    display: none;
+  }
+}
